@@ -19,6 +19,7 @@ Import it and then run the `Application` class to start the program.
 <img src="./imageResource/image-20241217173028697.png" alt="image-20241217173028697" style="zoom: 50%;" />
 
 **STEP 1:**
+
 $\color{red}VERY~~IMPORTANT$
 
 $\color{red}VERY~~IMPORTANT$
