@@ -2,7 +2,7 @@
 
 > # Java手写数字识别
 
-Read [How to implement a neural network for handwritten digit recognition in Java.pdf](https://github.com/CH3COOK2023/Java-Hand-Writing-Digit-Recognition-Application/blob/main/How to implement a neural network for handwritten digit recognition in Java.pdf) for more information!
+Read [How to implement a neural network for handwritten digit recognition in Java.pdf](https://github.com/CH3COOK2023/Java-Hand-Writing-Digit-Recognition-Application/blob/main/How%20to%20implement%20a%20neural%20network%20for%20handwritten%20digit%20recognition%20in%20Java.pdf) for more information!
 
 > 阅读 [如何在Java中实现手写数字识别神经网络.pdf](https://github.com/CH3COOK2023/Java-Hand-Writing-Digit-Recognition-Application/blob/main/如何在Java中实现手写数字识别神经网络.pdf) 文件以获得更多信息！
 
