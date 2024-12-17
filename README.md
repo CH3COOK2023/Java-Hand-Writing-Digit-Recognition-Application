@@ -20,6 +20,11 @@ Import it and then run the `Application` class to start the program.
 
 **STEP 1:**
 $\color{red}VERY~~IMPORTANT$
+
+$\color{red}VERY~~IMPORTANT$
+
+$\color{red}VERY~~IMPORTANT$
+
 When starting the program for the first time, please click on `Settings` -> `Refresh Resource Files Again` in the upper left corner.
 
 > 初次启动程序请单击左上角  `设置` -> `重新刷新资源文件`
