@@ -79,6 +79,8 @@ public class Processing {
      */
     public static void run() throws IOException {
         System.out.println("开始训练...");
+        System.out.println("总计样本量"+GUI.BATCH_SET_SIZE);
+        System.out.println("Batch = "+DEFINE_BATCH_SIZE);
         GUI.stopButtonPressed = false;
         Long start = System.currentTimeMillis();
         Random rand = new Random(0);

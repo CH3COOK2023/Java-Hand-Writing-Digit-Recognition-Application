@@ -21,6 +21,7 @@ public class LanguageSetting {
     public static String b1;
     public static String b2;
     public static String b3;
+    public static String c1;
 
     public static void runChineseText(){
         a1 = "重置画布";
@@ -37,11 +38,12 @@ public class LanguageSetting {
         a12 = "正则化L1 & L2 值 ->";
         a13 = "更改";
         a14 = "学习率 Alpha 值->";
-        a15 = "设置总训练 ->";
+        a15 = "设置总训练轮数 ->";
         a16 = "设置 Batch 值 ->";
         b1 = "设置";
         b2 = "重新刷新资源文件";
         b3 = "清除所有图片和缓存数据库(.txt数据)";
+        c1 = "Java手写数字识别";
     }
     public static void runEnglishText() {
         a1 = "Reset Canvas";
@@ -58,10 +60,11 @@ public class LanguageSetting {
         a12 = "Regularization L1 & L2 Values ->";
         a13 = "Change";
         a14 = "Learning Rate Alpha Value ->";
-        a15 = "Set the Total Training ->";
+        a15 = "Set the Total Training Times ->";
         a16 = "Set the Batch Value ->";
         b1 = "Settings";
         b2 = "Refresh Resource Files";
         b3 = "Clear All Images and Cache Databases(.txt files)";
+        c1 = "Java Hand Writing Digits Recognition";
     }
 }

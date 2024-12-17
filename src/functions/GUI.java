@@ -10,7 +10,7 @@ import java.util.Random;
 public class GUI extends JFrame {
     int CONSTANT_K = 300;
     static boolean stopButtonPressed = false;
-    protected static int BATCH_SET_SIZE = 1000;
+    protected static int BATCH_SET_SIZE = 10000;
     public GUI() {
         // 先弹出语言界面
         SwingUtilities.invokeLater(() -> {
@@ -81,7 +81,7 @@ public class GUI extends JFrame {
             this.setSize(703, 820);
 
             // 设置界面标题
-            this.setTitle("手写数字识别");
+            this.setTitle(LanguageSetting.c1);
 
             // 设置软件置顶
             this.setAlwaysOnTop(true);

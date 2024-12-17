@@ -97,10 +97,20 @@ public class DevelopTool {
             }
 
 
-            if(countProcess%1000==0)
-            {
-                System.out.println("[Generating image. Process] \t"+String.format("%.2f",((double)countProcess/60000.00*100.00))+"%");
+            if(PATH.equals(PATH_TRAIN_IMG_FOLDER)) {
+                if(countProcess%1000==0)
+                {
+                    System.out.println("[Generating image. Process] \t"+String.format("%.2f",((double)countProcess/60000.00*100.00))+"%");
+                }
             }
+            else
+            {
+                if(countProcess%1000==0)
+                {
+                    System.out.println("[Generating image. Process] \t"+String.format("%.2f",((double)countProcess/10000.00*100.00))+"%");
+                }
+            }
+
 
             if(PATH.equals(PATH_TRAIN_IMG_FOLDER))
                 arrayToImage(array, PATH_TRAIN_IMG_FOLDER, ""+countProcess);
