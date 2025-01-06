@@ -26,9 +26,9 @@ $\color{red}VERY~~IMPORTANT$
 
 $\color{red}VERY~~IMPORTANT$
 
-When starting the program for the first time, please click on `Settings` -> `Refresh Resource Files Again` in the upper left corner.
+When starting the program for the first time, please click on `Settings` -> `Refresh Resource Files Again` in the upper left corner. (Only for the first time setup)
 
-> 初次启动程序请单击左上角  `设置` -> `重新刷新资源文件`
+> 初次启动程序请单击左上角  `设置` -> `重新刷新资源文件` (仅仅针对第一次启动)
 
 <img src="./imageResource/image-20241217184752242.png" alt="image-20241217184752242" style="zoom: 67%;" />
 
