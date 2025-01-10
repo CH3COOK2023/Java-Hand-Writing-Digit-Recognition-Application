@@ -79,8 +79,8 @@ public class Processing {
      */
     public static void run() throws IOException {
         System.out.println("开始训练...");
-        System.out.println("总计样本量"+GUI.BATCH_SET_SIZE);
-        System.out.println("Batch = "+DEFINE_BATCH_SIZE);
+        System.out.println("总计样本量" + GUI.BATCH_SET_SIZE);
+        System.out.println("Batch = " + DEFINE_BATCH_SIZE);
         GUI.stopButtonPressed = false;
         Long start = System.currentTimeMillis();
         Random rand = new Random(0);
@@ -217,7 +217,7 @@ public class Processing {
                     double value = storage1.get(j) * BList[n][i];
                     gradient_weightBY[i][j] += value;
 
-                    temp += storage1.get(j) * weightBY[i][j]* BList[n][i]*(1.0 -  BList[n][i]); // 累加
+                    temp += storage1.get(j) * weightBY[i][j] * BList[n][i] * (1.0 - BList[n][i]); // 累加
                 }
                 storage2.add(temp);
             }
@@ -230,7 +230,7 @@ public class Processing {
                 double temp = 0;
                 for (int i = 0; i < 20; i++) {
                     gradient_weightAB[r][i] += storage2.get(i) * AList[n][r];
-                    temp += storage2.get(i) * AList[n][r] * weightAB[r][i] * (1.0 -AList[n][r]);
+                    temp += storage2.get(i) * AList[n][r] * weightAB[r][i] * (1.0 - AList[n][r]);
                 }
                 storage3.add(temp);
             }
@@ -357,6 +357,7 @@ public class Processing {
         for (int x = 0; x < 28; x++) {
             for (int y = 0; y < 28; y++) {
                 int RBG = (int) (255.00 * array[x][y]);
+                if (RBG < 0) RBG = 0;
                 newPanel.getComponentAt(y * 10, x * 10).setBackground(new Color(RBG, RBG, RBG));
             }
         }
@@ -660,6 +661,7 @@ public class Processing {
         return normalizedBatch;
 
     }
+
     public static double[][] normalization(double[][] img) {
         // 先处理图像
         img = resizeImg(img);
@@ -672,7 +674,7 @@ public class Processing {
                 if (img[x][y] > max) {
                     max = img[x][y];
                 }
-                if (img[x][y]!=0 && img[x][y] < min) {
+                if (img[x][y] != 0 && img[x][y] < min) {
                     min = img[x][y];
                 }
             }
